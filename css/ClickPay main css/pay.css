@@ -1,0 +1,189 @@
+.n {
+    display: flex;
+    justify-content: center;
+}
+
+.n2 {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.n2 a{
+    text-decoration: none;
+}
+
+.n2 li{
+    list-style: none;
+    color: black;
+    margin: 1.3rem 2rem;
+    font-size: 1.5rem;
+}
+
+.n3 button {
+    margin-left: 5rem;
+    margin-top: .8rem;
+    padding: .8rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.575);
+}
+
+.n3 button:hover {
+    background-color: rgba(0, 0, 255, 0.616);
+    color: white;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.m1 {
+    position: absolute;
+    background-image: url('../../img/pay-background.jpg');
+    height: 400px;
+    width: 100%;
+}
+
+.s1 {
+    min-height: 200px;
+    width: 80%;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.form {
+    display: flex;
+}
+
+.p1 {
+    margin: 2rem 1rem;
+}
+.p1 input {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.p2{
+    margin: 2rem 1rem;
+}
+.p2 input {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.p3{
+    margin: 2rem 1rem;
+}
+.p3 input {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+form button {
+    margin-left: 60.5rem;
+    padding: .3rem 2rem;
+    border-radius: .5rem;
+}
+
+form button:hover {
+    background-color: #6C55F9;
+    transition: all .5s ease-in-out;
+}
+
+.info{
+    display: flex;
+    margin: 4rem 0;
+}
+
+.info1 {
+    width: 50%;
+    margin: 3rem 0;
+    margin-left: 10rem;
+}
+
+.info1 h5 {
+    margin-top: 2rem;
+}
+
+.info1 h3 {
+    color: #6C55F9;
+}
+
+.info2 {
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.page-footer {
+    position: relative;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 16px;
+    background-color: #fff;
+    border-top: 1px solid #e9e8f5;
+  }
+  
+  .page-footer p a {
+    transition: color .2s ease;
+  }
+  
+  .page-footer h3,
+  .page-footer h4,
+  .page-footer h5 {
+    color: #645F88;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  .page-footer p {
+    color: #898798;
+  }
+  
+  .footer-menu {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 12px;
+  }
+  
+  .footer-link {
+    display: inline-block;
+    padding: 6px 0;
+  }
+  
+  .footer-menu a,
+  .footer-link {
+    color: #898798;
+  }
+  
+  .footer-menu a:hover,
+  .footer-link:hover {
+    color: #6C55F9;
+    text-decoration: none;
+  }
+.foot-p {
+    display: flex;
+}  
+
+.foot-p1 {
+    width: 50%;
+}
+
+.foot {
+    margin: 0 7rem;
+}
+
+.foot-p2 {
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.footlogo h3{
+    font-size: 2.5rem;
+}
