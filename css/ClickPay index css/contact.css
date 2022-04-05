@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(aqua, blue);
+}
+
+.down {
+    margin-bottom: 7rem;
+}
+
+.head h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.for {
+    display: flex;
+    height: 320px;
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+}
+
+.lbl label {
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 2.6rem;
+    margin-right: 2.5rem;
+}
+
+.inp input,
+textarea {
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+form button {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    margin-left: 70rem;
+    box-shadow: 5px 5px 8px 4px;
+}
+
+form button:hover {
+    background-color: rgb(47, 161, 255);
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}

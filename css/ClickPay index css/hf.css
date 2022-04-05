@@ -1,0 +1,230 @@
+/*----------Default CSS-------*/
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black url('../img/loader.gif') no-repeat center;
+    z-index: 999;
+}
+
+
+/*----------Header-----------*/
+
+.navbar {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(4, 4, 80);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container img {
+    height: 60px;
+    width: 60px;
+    margin-left: 3rem;
+}
+
+.navitem {
+    margin-left: 10rem;
+}
+
+.navitem ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navitem ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    border-radius: .7rem;
+}
+
+.navitem ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: all .5s ease-in-out;
+}
+
+.navitem ul li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.btn button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin-right: .7rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}
+
+.btn button:hover {
+    font-weight: bold;
+    background-color: rgb(47, 161, 255);
+    transition: all .7s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn button strong a {
+    text-decoration: none;
+    color: black;
+}
+
+#login {
+    margin-right: 2rem;
+}
+
+
+/*-----------Footer--------------*/
+
+footer {
+    display: inline-block;
+    background-color: rgb(4, 4, 80);
+    justify-content: center;
+    text-align: center;
+    color: white;
+    min-height: 140px;
+    width: 100%;
+    margin-top: auto;
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+}
+
+.mainf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.footlogo {
+    height: 90px;
+    min-width: 100px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.footlogo h3 {
+    font-size: 2rem;
+}
+
+.footlogo img {
+    margin-top: .5rem;
+    height: 50px;
+    width: 50px;
+}
+
+#facebook {
+    margin-top: 0px;
+    margin-bottom: .4rem;
+    margin-right: .2rem;
+    height: 40px;
+    width: 40px;
+}
+
+footer h4 {
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+}
+
+#footlogo {
+    margin-left: 1.7rem;
+}
+
+.footlogo img:hover {
+    transition: all .7s ease-in-out;
+    transform: scale(1.3);
+}
+
+.foot {
+    margin-top: .8rem;
+}
+
+
+/*------------Burger--------------*/
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    background-color: white;
+    height: 4px;
+    margin: .4rem .3rem;
+    border-radius: .3rem;
+}
+
+
+/*---------Media Query---------*/
+
+@media only screen and (max-width:830px) {
+    html {
+        font-size: 55%;
+    }
+    .navbar {
+        height: 250px;
+        transition: all .5s ease-in-out;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        right: 2rem;
+        top: 1.3rem;
+    }
+    .h-nav {
+        height: 50px;
+        overflow-y: hidden;
+    }
+    .v-class {
+        opacity: 0;
+        transition: all 1s ease-in-out;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .navitem ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn {
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .btn button {
+        margin: 1.2rem .7rem;
+    }
+    #signup {
+        margin-left: 2.4rem;
+    }
+}

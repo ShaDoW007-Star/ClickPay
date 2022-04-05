@@ -1,0 +1,166 @@
+body {
+    z-index: 999;
+    background: url('../../img/sign-bg.jpg') no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* .form label {
+    font-size: 2rem;
+    margin: rem 1rem;
+    margin-left: 8rem;
+} */
+
+.form input {
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.form {
+    margin-top: 16rem;
+    margin-left: 10rem;
+}
+
+.form h1 {
+    font-size: 4rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+}
+
+.lbl label {
+    display: inline-block;
+    font-size: 3rem;
+    margin-left: 10rem;
+    margin-right: 3rem;
+    margin-top: .9rem;
+    margin-bottom: .9rem;
+    /* border: 3px solid red; */
+}
+
+.inp input {
+    font-size: 2.5rem;
+    padding: 0 .7rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+}
+
+.fl {
+    display: flex;
+}
+
+#android {
+    display: none;
+}
+
+#submit {
+    font-size: 2.3rem;
+    border-radius: .6rem;
+    padding: .5rem 1.5rem;
+    margin-left: 25rem;
+    margin-top: 1rem;
+}
+
+form button:hover {
+    font-weight: bold;
+    background-color: rgb(47, 161, 255);
+    transition: all .4s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1024px) {
+    html {
+        font-size: 70%;
+    }
+    body {
+        background-image: linear-gradient(aqua, blue);
+    }
+    .signup {
+        margin-top: 5.5rem;
+    }
+    .form h1 {
+        font-size: 3.5rem;
+        margin-left: 40rem;
+        margin-bottom: 3rem;
+    }
+    .form label {
+        font-size: 2.5rem;
+        margin: 0 3rem;
+        margin-left: 20rem;
+        margin-bottom: 2rem;
+        margin-top: 1.2rem;
+    }
+    .form input {
+        font-size: 2.2rem;
+        padding: .5rem .7rem;
+        border-radius: .7rem;
+    }
+    #submit {
+        font-size: 3rem;
+        border-radius: .6rem;
+        padding: 1rem 2.5rem;
+        margin-left: 39rem;
+        margin-top: 2rem;
+        border-radius: 1.5rem;
+    }
+    form button:hover {
+        font-weight: bold;
+        background-color: greenyellow;
+        transition: all .4s ease-in-out;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:376px) {
+    html {
+        font-size: 65%;
+    }
+    body {
+        background-image: linear-gradient(aqua, blue);
+    }
+    .signup {
+        margin-top: 7rem;
+    }
+    .form h1 {
+        display: inline-block;
+        font-size: 3rem;
+        margin-left: 12rem;
+        margin-bottom: 3rem;
+    }
+    .form label {
+        font-size: 1.4rem;
+        margin: 0 3rem;
+        margin-bottom: 2rem;
+        margin-top: 1.2rem;
+    }
+    .form input {
+        font-size: 1.2rem;
+        padding: .5rem .7rem;
+        border-radius: .7rem;
+    }
+    #cpass {
+        margin: 1.5rem .5rem;
+    }
+    form button {
+        display: none;
+    }
+    #android {
+        display: block;
+        font-size: 2rem;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+        margin-top: 2rem;
+        margin-left: 12rem;
+    }
+    .and button:hover {
+        background-color: rgb(47, 161, 255);
+        transition: all .4s ease-in-out;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}

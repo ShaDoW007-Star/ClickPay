@@ -1,0 +1,255 @@
+* {
+    user-select: none;
+}
+
+
+/*----------Header-----------*/
+
+.navbar {
+    background-color: #03032e;
+}
+
+body {
+    /* background-color: #62c5f3; */
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+
+/*----------------main-1 container------------------*/
+
+
+/* @keyframes animation {
+    0% {
+        opacity: 0;
+        margin-left: 0rem;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+
+/* @keyframes animation1 {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+} */
+
+.main-1 {
+    height: 200vh;
+    width: 100%;
+    background-color: #03032e;
+    /* background-color: #050533; */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 85%, 0 100%);
+    z-index: -1;
+}
+
+.main-1-c {
+    display: flex;
+}
+
+.main-1-c img {
+    margin-top: 9rem;
+    margin-left: 9rem;
+    /* margin-right: 60rem; */
+    width: 700px;
+    height: 68%;
+}
+
+.main-1-h1 {
+    width: 900px;
+    margin-top: 20rem;
+    margin-left: 20rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.main-1-h1 p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+
+/*----------------main-2 container------------------*/
+
+.main-2 h3 {
+    text-align: center;
+    font-family: Segoe UI, serif;
+    font-size: 3rem;
+    margin-bottom: 1.7rem;
+}
+
+.main-2-c {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 5rem;
+    min-width: 70px;
+    /* flex-wrap: wrap; */
+}
+
+.main-2-c h3 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main-2-c p {
+    color: gray;
+    font-size: 2rem;
+    /* margin: .5rem 5rem; */
+}
+
+.main-2-c .cards {
+    position: relative;
+    min-width: 280px;
+    min-height: 300px;
+    margin: 15px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    /* background: rgba(225, 255 , 255, 0.1); */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.main-2-c .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-2-c .content a {
+    background: black;
+    /* margin-top: 5rem; */
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+
+
+/*----------------main-3 container------------------*/
+
+.poly {
+    z-index: -90;
+}
+
+.main-3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #03032e;
+    color: blanchedalmond;
+    clip-path: polygon(0% 25%, 150% 0%, 100% 80%, 55% 100%, 0% 92%);
+}
+
+.brage {
+    margin-bottom: 14rem;
+}
+
+.main-3 h1,
+p {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.main-3 p {
+    margin-top: 1rem;
+    color: silver;
+    font-size: 1.8rem;
+}
+
+.main-3-c {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-3-iteams {
+    margin: 0 15rem;
+    ;
+    min-height: 100px;
+    width: 300px;
+    margin-top: 5rem;
+    font-family: Segoe UI, serif;
+    font-size: 2rem;
+}
+
+.main-3-iteams h2 {
+    min-width: 200px;
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.main-3-iteams p {
+    font-size: 1.5rem;
+}
+
+
+/*----------------main-4 container------------------*/
+
+.main-4 {
+    margin-top: 7rem;
+    clip-path: polygon(8% 13%, 82% 0%, 97% 40%, 69% 95%, 2% 71%);
+    background-color: #03032e;
+    color: white;
+    text-align: center;
+}
+
+.main-4-c h3,
+li {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-family: Segoe UI, serif;
+    font-size: 2rem;
+}
+
+.main-4-c ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.main-4-c li {
+    margin: 0 2rem;
+}
+
+.main-4-c .brage p {
+    margin-bottom: 1rem;
+    color: #03032e;
+}
+
+.main-4-btn button {
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.main-4-c button:hover {
+    font-weight: bold;
+    background-color: rgb(47, 161, 255);
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-4-c button strong a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-----------Footer--------------*/
+
+footer {
+    background-color: #03032e;
+}
