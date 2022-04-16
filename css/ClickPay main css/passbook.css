@@ -1,0 +1,264 @@
+.n {
+    display: flex;
+    justify-content: center;
+}
+
+.n2 {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.n2 a{
+    text-decoration: none;
+}
+
+.n2 li{
+    list-style: none;
+    color: black;
+    margin: 1.3rem 2rem;
+    font-size: 1.5rem;
+}
+
+.n3 button {
+    margin-left: 5rem;
+    margin-top: .8rem;
+    padding: .8rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.575);
+}
+
+.n3 button:hover {
+    background-color: rgba(0, 0, 255, 0.616);
+    color: white;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.page-footer {
+    position: relative;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 16px;
+    background-color: #fff;
+    border-top: 2px solid black;
+  }
+  
+  .page-footer p a {
+    transition: color .2s ease;
+  }
+  
+  .page-footer h3,
+  .page-footer h4,
+  .page-footer h5 {
+    color: #645F88;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  .page-footer p {
+    color: #898798;
+  }
+  
+  .footer-menu {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 12px;
+  }
+  
+  .footer-link {
+    display: inline-block;
+    padding: 6px 0;
+  }
+  
+  .footer-menu a,
+  .footer-link {
+    color: #898798;
+  }
+  
+  .footer-menu a:hover,
+  .footer-link:hover {
+    color: #6C55F9;
+    text-decoration: none;
+  }
+.foot-p {
+    display: flex;
+}  
+
+.foot-p1 {
+    width: 50%;
+}
+
+.foot {
+    margin: 0 7rem;
+}
+
+.foot-p2 {
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.footlogo h3{
+    font-size: 2.5rem;
+}
+
+/* .poly {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: url('../../img/pay.jpg');
+  clip-path: polygon(-230% 160%,100% 10%,100% 50%,50% 70%);
+  z-index: -1;
+} */
+
+.poly1 {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: url('../../img/pay.jpg');
+  clip-path: polygon(0% 10%, 100% 56%, 100% 89%, 0% 45%);
+  z-index: -1;
+}
+
+.main1 {
+  z-index: 999;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: 65vh;
+  min-width: 70%;
+  background: url('../../img/pay.jpg');
+  border-radius: .7rem;
+  border-color: black;
+  margin: 2.3rem 14rem;
+  
+}
+
+.box1, .box2 {
+  height: 400px;
+  width: 250px;
+  background-color: white;
+  border-radius: .5rem;
+}
+
+.box1 {
+  margin: 2rem 13rem;
+}
+.box2 {
+  margin: 2rem 1rem;
+}
+
+.box1 img,.box2 img {
+  margin: .5rem 1.5rem;
+}
+.box1 h3 {
+  margin-top: 1.8rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.box1 h5 {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight:400;
+}
+.fm input {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  border-radius: .5rem;
+  border-color: rgba(0, 0, 0, 0.05);;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: .3rem 1rem;
+  text-align: center;
+}
+.fm button {
+  margin-top: 1.5rem;
+  margin-left: 1.1rem;
+  padding: .3rem 4rem;
+  border-radius: .5rem;
+  border-color: #645F88;
+}
+.fm button:hover {
+  background-color: #6C55F9;
+  transition: all .3s ease-in-out;
+  color: whitesmoke;
+}
+
+
+/* ================================================================================= */
+/* ================================================================================= */
+/* ================================================================================= */
+/* ================================================================================= */
+
+
+
+.card {
+    position: relative;
+    width: 508px;
+    height: 314px;
+    z-index: 2;
+}
+
+.card .face {
+    position: absolute;
+    /* top: 90px; */
+    margin-left: 10rem;
+    width: 1200px;
+    min-height: 400px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(28px);
+    backface-visibility: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10rem;
+}
+
+.card .debit{
+    margin-left: 32rem;
+    margin-top: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+.box .info{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box .lbl{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.box .lbl label{
+    color: white;
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+.box .lbl input{
+  color: white;
+    background-color: transparent;
+    border:transparent;
+    border-bottom: 2px solid white;
+    margin-right: 1rem;
+}
+
+.box .data h2{
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

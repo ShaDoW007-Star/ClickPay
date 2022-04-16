@@ -1,0 +1,148 @@
+.n {
+    display: flex;
+    justify-content: center;
+}
+
+.n2 {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.n2 a {
+    text-decoration: none;
+}
+
+.n2 li {
+    list-style: none;
+    color: black;
+    margin: 1.3rem 2rem;
+    font-size: 1.5rem;
+}
+
+.n3 button {
+    margin-left: 5rem;
+    margin-top: .8rem;
+    padding: .8rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.575);
+}
+
+.n3 button:hover {
+    background-color: rgba(0, 0, 255, 0.616);
+    color: white;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.page-footer {
+    position: relative;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 16px;
+    background-color: #fff;
+    border-top: 1px solid #e9e8f5;
+}
+
+.page-footer p a {
+    transition: color .2s ease;
+}
+
+.page-footer h3,
+.page-footer h4,
+.page-footer h5 {
+    color: #645F88;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.page-footer p {
+    color: #898798;
+}
+
+.footer-menu {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 12px;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 6px 0;
+}
+
+.footer-menu a,
+.footer-link {
+    color: #898798;
+}
+
+.footer-menu a:hover,
+.footer-link:hover {
+    color: #6C55F9;
+    text-decoration: none;
+}
+
+.foot-p {
+    display: flex;
+}
+
+.foot-p1 {
+    width: 50%;
+}
+
+.foot {
+    margin: 0 7rem;
+}
+
+.foot-p2 {
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.footlogo h3 {
+    font-size: 2.5rem;
+}
+
+.back {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.form {
+    display: flex;
+    margin: 2rem 10rem;
+}
+
+.form1 label {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    color: #01e6f8;
+}
+
+.form2 input {
+    background-color: #e9e8f5;
+    border-radius: .4rem;
+    padding: .3rem 1rem;
+    margin-top: 1.5rem;
+}
+
+.u_btn {
+    padding: .3rem 1rem;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    border-radius: .5rem;
+}
+
+.u_btn:hover {
+    background-color: rgb(80, 248, 248);
+    transition: all .3s ease-in-out;
+}
