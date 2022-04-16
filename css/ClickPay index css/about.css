@@ -1,0 +1,83 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Segoe UI, serif;
+    background-image: linear-gradient(aqua, blue);
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 7.5rem;
+}
+
+.per {
+    display: flex;
+}
+
+#dev {
+    margin-right: -5rem;
+}
+
+#ap {
+    margin-left: -5rem;
+}
+
+.logo-dis {
+    margin: auto;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    height: 250px;
+    width: 250px;
+    box-shadow: 6px 7px 17px 4px;
+    border-radius: 3rem;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.logo-dis img {
+    margin-top: 1.5rem;
+    margin-left: 7.5rem;
+}
+
+.logo-dis h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.logo-dis h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.logo-dis h3 {
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.abt ul li {
+    height: 60px;
+    width: 70%;
+    font-size: 2rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.abt ul {
+    margin-left: 4rem;
+}
+
+.spc {
+    margin-bottom: 5.7rem;
+}
+
+.poly {
+    height: 500px;
+    width: 100%;
+    color: whitesmoke;
+    clip-path: polygon(3% 50%, 20% 0, 80% 0, 97% 50%, 80% 100%, 20% 100%);
+    margin: 2rem 0;
+    background-color: rgb(4, 4, 80);
+}
